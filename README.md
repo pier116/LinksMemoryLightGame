@@ -2,9 +2,9 @@
 
 **Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
 
-Submitted by: **NAME**
+Submitted by: **Jacob Pierce**
 
-Time spent: **#** hours spent in total
+Time spent: **8** hours spent in total
 
 Link to project: (insert your link here, should start with https://glitch.com...)
 
