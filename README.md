@@ -36,11 +36,11 @@ The following **optional** features are implemented:
 
 The following is a win:
 
-![](https://recordit.co/XrhN33a8IG)
+![Win](https://recordit.co/XrhN33a8IG)
 
 The following is a loss:
 
-![](https://recordit.co/ET4vPODNIs)
+![Loss](https://recordit.co/ET4vPODNIs)
 
 ## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
