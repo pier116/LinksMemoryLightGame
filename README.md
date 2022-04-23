@@ -57,8 +57,7 @@ https://stackoverflow.com/questions/33344121/text-and-image-in-button-wont-stay-
 
 One of the largest challenges I faced during this project was with syntax. I've only ever coded in C++, Java, and Python, so coming into this project, I had no prior experience to HTML, CSS, or Javascript. There was definitely a learning curve when it came to understanding how all 3 files worked togther. For example, one of my biggest problem areas was in making an image appear when clicking on the buttons. Before this part, I was able to implement each part of the code without explicitly understanding function calls within HTML for functions in JS worked, so it took a lot of contemplation and trial-and-error on my part. I had to sit down with the code for an hour or two and draw on a piece of notebook paper how each function worked and how it communicated between the 3 files.
 
-3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words) 
-[YOUR ANSWER HERE]
+3. What questions about web development do you have after completing your submission? (recommended 100 - 300 words)
 
 After working on this website, I am excited to find out how large websites are able to create seamless UI/UX experiences in the form of smooth animations, like in drop-down menus or simply hovering the mouse pointer over an object on the website. I would also like to know the theory behind how developers implement menus, and specifically, how they know when to add a section to the header of a website or create a drop-down menu that lists all potential objects, i.e., sarificing convenience for page clutter. Laslty, I would love to know how developers come up with ways to combine fonts, colors, and shapes to appeal to the eye.
 
