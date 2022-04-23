@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Memory Game</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>The Legend of Zelda: A Light and Sound Memory Game</h1>
+    <p>
+      Welcome to Link's memory light and sound game! Help Link save Zelda by
+      clicking on the correct buttons based on what you see and hear. Hurry,
+      before Ganon captures Zelda!
+    </p>
+
+    <button id="startBtn" onclick="startGame()">Start</button>
+
+    <button id="stopBtn" class="hidden" onclick="stopGame()">Stop</button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onclick="guess(1)"
+        onmousedown="startTone(1); showImage(1)"
+        onmouseup="stopTone(); hideImage(1)"
+      >
+        <img
+          src="https://cdn.glitch.global/034ce028-7e9d-4ed5-b8ea-cd258b757875/link1.jpg?v=1650691443364"
+          id="b1img"
+          height="150"
+          width="150"
+          class="hidden"
+        />
+      </button>
+      <button
+        id="button2"
+        onclick="guess(2)"
+        onmousedown="startTone(2); showImage(2)"
+        onmouseup="stopTone(); hideImage(2)"
+      >
+        <img
+          src="https://cdn.glitch.global/034ce028-7e9d-4ed5-b8ea-cd258b757875/triforce.jpg?v=1650604572276"
+          id="b2img"
+          height="150"
+          width="150"
+          class="hidden"
+        />
+      </button>
+      <button
+        id="button3"
+        onclick="guess(3)"
+        onmousedown="startTone(3); showImage(3)"
+        onmouseup="stopTone(); hideImage(3)"
+      >
+        <img
+          src="https://cdn.glitch.global/034ce028-7e9d-4ed5-b8ea-cd258b757875/korok1.jpg?v=1650691437907"
+          id="b3img"
+          height="150"
+          width="150"
+          class="hidden"
+        />
+      </button>
+      <button
+        id="button4"
+        onclick="guess(4)"
+        onmousedown="startTone(4); showImage(4)"
+        onmouseup="stopTone(); hideImage(4)"
+      >
+        <img
+          src="https://cdn.glitch.global/034ce028-7e9d-4ed5-b8ea-cd258b757875/sword1.png?v=1650691454477"
+          id="b4img"
+          height="150"
+          width="150"
+          class="hidden"
+        />
+      </button>
+      <button
+        id="button5"
+        onclick="guess(5)"
+        onmousedown="startTone(5); showImage(5)"
+        onmouseup="stopTone(); hideImage(5)"
+      >
+        <img
+          src="https://cdn.glitch.global/034ce028-7e9d-4ed5-b8ea-cd258b757875/lynel1.jpg?v=1650691525566"
+          id="b5img"
+          height="150"
+          width="150"
+          class="hidden"
+        />
+      </button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,135 @@
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+
+body {
+  margin: 1rem;
+  line-height: 1.5;
+  background-color: #fdffe0;
+  color: #767676;
+}
+
+h1 {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+h3 {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 15.4px;
+}
+p {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+blockquote {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+pre {
+  font-family: Arial Rounded MT Bold, Helvetica Rounded, Arial, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5667px;
+}
+
+/* rules pertaining to buttons */
+
+button {
+  padding: 12px;
+  border-radius: 5px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+}
+
+#button1 {
+  background: #00cc00;
+}
+
+#button1:active,
+#button1.lit {
+  background: white;
+}
+
+#button2 {
+  background: 1bb04c;
+}
+
+#button2:active,
+#button2.lit {
+  background: white;
+}
+
+#button3 {
+  background: #508372;
+}
+
+#button3:active,
+#button3.lit {
+  background: white;
+}
+
+#button4 {
+  background: #70af23;
+}
+
+#button4:active,
+#button4.lit {
+  background: white;
+}
+
+#button5 {
+  background: #38b6f1;
+}
+
+#button5:active,
+#button5.lit {
+  background: white;
+}
+
+.hidden {
+  display: none;
+}
+
+div {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+/* images and videos max out at full width */
+video {
+  height: auto;
+  max-width: 100%;
+}
